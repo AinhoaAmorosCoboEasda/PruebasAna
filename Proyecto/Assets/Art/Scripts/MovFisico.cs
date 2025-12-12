@@ -33,9 +33,10 @@ public class MovFisico : MonoBehaviour
         void Update()
         {
             // Movimiento horizontal
-            float moveHorizontal = Input.GetAxis("Vertical");
-            float moveVertical = Input.GetAxis("Horizontal");
-            Vector3 force = new Vector3(-moveHorizontal, 0.0f, moveVertical) * speed;
+            float moveHorizontal = Input.GetAxis("Horizontal"); // A-D
+            float moveVertical   = Input.GetAxis("Vertical");   // W-S
+
+            Vector3 force = new Vector3(moveVertical, 0, moveHorizontal) * speed;
             rb.AddForce(force);
     
             // Saltar al presionar la tecla espacio

@@ -16,24 +16,28 @@ public class Erupcion : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Rigidbody>().AddForce(Vector3.up * impulsoFuerza, ForceMode.Impulse);
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        GameObject item;
+
         if (Time.time > nextFire)
         {
-            
             nextFire = Time.time + fireRate;
-            item = items[Random.Range(0, items.Length)];
-            item.transform.position = new Vector3 (Random.Range(32f, 52f), -20f, Random.Range(-6f, -25f));
-            item.transform.rotation = Random.rotation;
-            Instantiate(item, item.transform.position, item.transform.rotation);
 
+            // Elegimos un item aleatorio del array
+            item = items[Random.Range(0, items.Length)];
+
+            // Posición y rotación aleatorias
+            item.transform.position = new Vector3(Random.Range(32f, 52f), -20f, Random.Range(-6f, -25f));
+            item.transform.rotation = Random.rotation;
+
+            // Creamos el nuevo objeto
+            GameObject nuevoItem = Instantiate(item, item.transform.position, item.transform.rotation);
+
+         
         }
-        
     }
 }
