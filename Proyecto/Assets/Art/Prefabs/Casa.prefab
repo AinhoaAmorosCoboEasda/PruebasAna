@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 8681883613895015385}
   - component: {fileID: 2051044445095520469}
   - component: {fileID: 5325630706523778046}
+  - component: {fileID: 4507691954071653530}
+  - component: {fileID: 8378664549398569799}
   m_Layer: 0
   m_Name: Casa
-  m_TagString: Untagged
+  m_TagString: CubosPeligro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5096248604051837920}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.6299973, y: 1.2688293, z: 2.378829}
   m_LocalScale: {x: 3.7576578, y: 3.7576578, z: 3.7576578}
   m_ConstrainProportionsScale: 0
@@ -105,3 +107,47 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4507691954071653530
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5096248604051837920}
+  serializedVersion: 4
+  m_Mass: 20
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8378664549398569799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5096248604051837920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e1a146189a2414e823157e71259c12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impulsofuerza: 10
+  maxTime: 90
+  currentTime: 0
+  explosion: {fileID: 0}
+  itemExplosion: {fileID: 0}

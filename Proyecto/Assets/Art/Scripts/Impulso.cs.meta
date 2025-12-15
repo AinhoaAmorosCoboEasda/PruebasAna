@@ -5,7 +5,8 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - explosion: {instanceID: 0}
-  - itemExplosion: {instanceID: 0}
+  - itemExplosion: {fileID: 1445629720485506358, guid: 9bedd8b37ae1b2c43a03440bfbfbdf4c,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Erupcion : MonoBehaviour
 {
     public GameObject item;
-    public float fireRate = 0.5f;
+    public float fireRate = 5f;
 
     // Use this for initialization
     void Start()

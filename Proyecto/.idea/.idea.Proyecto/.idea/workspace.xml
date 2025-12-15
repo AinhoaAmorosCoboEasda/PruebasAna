@@ -5,53 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fcc4408-34ac-4c16-b69d-33ae060ff674" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Modelos 3D/Casa.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Modelos 3D/Casa.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Modelos 3D/Cylinder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Modelos 3D/Cylinder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Scripts/ControlCapsula.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Scripts/ControlCapsula.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Scripts/Erupcion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Scripts/Erupcion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Scripts/Impulso.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Scripts/Impulso.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Scripts/Impulso.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Scripts/Impulso.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Scripts/MovFisico.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Scripts/MovFisico.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Principal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Principal.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot446z08k0.ex4/lib_burst_generated_part_2230a143748f5ecbc3a89a75bf0ad747.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot446z08k0.ex4/lib_burst_generated_part_2230a143748f5ecbc3a89a75bf0ad747.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot446z08k0.ex4/lib_burst_generated_part_670478f3fb3f285eeace534fbe61a03e.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot446z08k0.ex4/lib_burst_generated_part_670478f3fb3f285eeace534fbe61a03e.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot446z08k0.ex4/lib_burst_generated_part_aa309157da5950aa53ed6075709e6e40.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot446z08k0.ex4/lib_burst_generated_part_aa309157da5950aa53ed6075709e6e40.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot446z08k0.ex4/lib_burst_generated_part_fbc079948c97a98cd097eb9cc996cc4a.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aot446z08k0.ex4/lib_burst_generated_part_fbc079948c97a98cd097eb9cc996cc4a.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aoth6ikifn4.vja/lib_burst_generated_part_89425a97f3f500fa810ad03f0c382542.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aoth6ikifn4.vja/lib_burst_generated_part_89425a97f3f500fa810ad03f0c382542.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aoth6ikifn4.vja/lib_burst_generated_part_da352d92cabf024fc9986011d52a4537.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aoth6ikifn4.vja/lib_burst_generated_part_da352d92cabf024fc9986011d52a4537.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotjuf6t86z.rmw/lib_burst_generated_part_77fc393cb521ac129b1392d4eb94d29a.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotjuf6t86z.rmw/lib_burst_generated_part_77fc393cb521ac129b1392d4eb94d29a.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotjuf6t86z.rmw/lib_burst_generated_part_adceb2156d08d59afc9749dc2521fd2b.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotjuf6t86z.rmw/lib_burst_generated_part_adceb2156d08d59afc9749dc2521fd2b.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotucd1djb3.87l/lib_burst_generated_part_c5da162bb9dc9272f53313b169c04eaa.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotucd1djb3.87l/lib_burst_generated_part_c5da162bb9dc9272f53313b169c04eaa.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotucd1djb3.87l/lib_burst_generated_part_d636e4baec7f7eb1d42a504f9a31611a.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotucd1djb3.87l/lib_burst_generated_part_d636e4baec7f7eb1d42a504f9a31611a.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotx3qzn440.sxo/lib_burst_generated_part_a6f5259e22ed809ef3937424c4bd686d.gbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Burst/burst-aotx3qzn440.sxo/lib_burst_generated_part_a6f5259e22ed809ef3937424c4bd686d.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FBXMaxExport.ms" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-192769c6b7a675147a9f3d143ff0af9a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-1b13cdfc14df092488276a09ec80d16e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-360a9749849d27c47b431166795d2ec8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-38a7592562408d1459157d818446ba10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-61ebe9a88e2e5bc43b0ac163f82c81b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-87f3570146170a04998d98f0e6edf998" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-9af3b90b74108e74689b6c9eabde88ef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-ae0bcc9b278b4ca4db2340b0782e384d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-ce204e9c7e160fd42a02ed5cbed3f3e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-cff61f62ad946d04cb8c13987670a672" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/bridge.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/workerlic" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
@@ -69,12 +34,12 @@
     &quot;assignee&quot;: &quot;AinhoaAmorosCoboEasda&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AinhoaAmorosCoboEasda/PruebasAna.git&quot;,
-    &quot;accountId&quot;: &quot;fd5beb93-4b12-4dac-8766-edf55e990746&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AinhoaAmorosCoboEasda/PruebasAna.git",
+    "accountId": "a041d4be-6115-48a7-b502-8033847409f4"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Art/Scripts/ControlCapsula.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -103,26 +68,22 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="K:\Unity\2022.3.62f1-x86_64\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\master\Desktop\AINHOA AMOROS\ASIGNATURAS\Mecanica Ana\ProyectoAna\PruebasAna\Proyecto&quot; -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\master\Desktop\AINHOA AMOROS\ASIGNATURAS\Mecanica Ana\ProyectoAna\PruebasAna\Proyecto" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="K:\Unity\2022.3.62f1-x86_64\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\master\Desktop\AINHOA AMOROS\ASIGNATURAS\Mecanica Ana\ProyectoAna\PruebasAna\Proyecto&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\master\Desktop\AINHOA AMOROS\ASIGNATURAS\Mecanica Ana\ProyectoAna\PruebasAna\Proyecto" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
@@ -169,6 +130,7 @@
       <workItem from="1765546450810" duration="9141000" />
       <workItem from="1765793545681" duration="1498000" />
       <workItem from="1765795386366" duration="1431000" />
+      <workItem from="1765808362370" duration="5635000" />
     </task>
     <servers />
   </component>
