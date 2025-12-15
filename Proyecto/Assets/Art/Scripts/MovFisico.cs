@@ -10,15 +10,25 @@ public class MovFisico : MonoBehaviour
     
         private Rigidbody rb;
         private bool isGrounded;
-
+        
+        
         void OnCollisionEnter(Collision collision)
         {
             GameObject other = collision.gameObject;
-            if (other.tag == "Suelo")
+
+            if (
+                other.CompareTag("CubosPeligro") ||
+                other.CompareTag("CilindrosPeligro") ||
+                other.CompareTag("EsferasPeligro")
+            )
             {
-                other.GetComponent<MeshRenderer>().material.color = Color.red;
-            }    
-            
+                MeshRenderer renderer = other.GetComponent<MeshRenderer>();
+
+                if (renderer != null)
+                {
+                    renderer.material.color = Color.red;
+                }
+            }
         }
         
         void Start()

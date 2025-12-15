@@ -4,40 +4,33 @@ using UnityEngine;
 
 public class Erupcion : MonoBehaviour
 {
-    
-    //public gameboject item:
-
-    public GameObject[] items = new GameObject[2];
     public GameObject item;
     public float fireRate = 0.5f;
-    private float nextFire = 0.0f;
-    public float impulsoFuerza = 10.0f;
-    
-    // Start is called before the first frame update
+
+    // Use this for initialization
     void Start()
     {
-        
+        // Invocar una corrutina
+        StartCoroutine(LanzarItems());
     }
 
     // Update is called once per frame
     void Update()
     {
+    }
 
-        if (Time.time > nextFire)
+    IEnumerator LanzarItems()
+    {
+        // No llamar a la corrutina hasta pasados 2 segundos
+        yield return new WaitForSeconds(2.0f);
+
+        while (true)
         {
-            nextFire = Time.time + fireRate;
+            Instantiate(item, transform.position, Random.rotation);
+            
 
-            // Elegimos un item aleatorio del array
-            item = items[Random.Range(0, items.Length)];
-
-            // Posición y rotación aleatorias
-            item.transform.position = new Vector3(Random.Range(32f, 52f), -20f, Random.Range(-6f, -25f));
-            item.transform.rotation = Random.rotation;
-
-            // Creamos el nuevo objeto
-            GameObject nuevoItem = Instantiate(item, item.transform.position, item.transform.rotation);
-
-         
+            // Cuando tiene Unity que invocar otra vez la corrutina y que no dependa del frame
+            yield return new WaitForSeconds(fireRate);
         }
     }
 }

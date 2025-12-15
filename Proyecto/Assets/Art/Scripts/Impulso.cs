@@ -8,7 +8,7 @@ public class Impulso : MonoBehaviour
 {
 
     public float impulsofuerza = 1f;
-    public float maxTime = 90.0f;
+    public float maxTime = 3.0f;
     public float currentTime = 0.0f;
 
     public GameObject explosion;
